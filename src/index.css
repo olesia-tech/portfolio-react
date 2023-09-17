@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.content-div:hover {
+  border: 2px solid #00FFB4;  
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);  
+  transform: scale(1.02);
+  transition-duration: 500ms;
+} 
