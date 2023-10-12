@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useState } from 'react'
 import {
         FaBars, 
@@ -19,6 +19,7 @@ const handleClick = () => setNav(!nav);
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div className='text-xl font-bold text-[#00CC99]'>Olesia Monteith</div>
+     
       {/* Menu */}
       
         <ul className='hidden md:flex'>
@@ -89,7 +90,11 @@ const handleClick = () => setNav(!nav);
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] rounded-md'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href='/'>Linkedin <FaLinkedin size={30} /></a>
+            href='https://www.linkedin.com/in/olesia-monteith-21a55a295/' 
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              Linkedin <FaLinkedin size={30} /></a>
           </li>
 
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300  bg-blue-600 rounded-md'>
@@ -104,7 +109,11 @@ const handleClick = () => setNav(!nav);
 
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] rounded-md'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href='/'>Resume <BsFillPersonLinesFill size={30} /></a>
+            href='https://drive.google.com/file/d/1eEIL4BsavFNru4gMo-_DYbf5IHkTaBj3/view?usp=drive_link'
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              Resume <BsFillPersonLinesFill size={30} /></a>
           </li>
         </ul>
       </div>
